@@ -23,7 +23,7 @@ void loop()
 {
     Serial.println("0");
     stepper.setMaxSpeed(590);
-    stepper.runToNewPosition(1000);
+    stepper.runToNewPosition(20000);
     Serial.println("1");
     inChar = '0';
     waitForPi();
@@ -35,7 +35,7 @@ void loop()
     waitForPi();
     Serial.println("0");
     stepper.setMaxSpeed(2106);
-    stepper.runToNewPosition(1000);
+    stepper.runToNewPosition(20000);
     Serial.println("1");
     inChar = '0';
     waitForPi();
